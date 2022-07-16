@@ -3,9 +3,6 @@ import entity.Conta;
 import entity.ContaCorrente;
 import entity.ContaPoupanca;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import javax.swing.*;
 
 public class FuncoesCliente {

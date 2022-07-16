@@ -7,8 +7,7 @@ public class Main {
 
         Banco banco = new Banco();
         banco.setNome("Melhor Banco");
-
-
+        FuncoesDB.inserirNoDB(banco);
 
         Menu.menuInicial();
         JOptionPane.showMessageDialog(null, "Obrigado por utilizar noss banco!");
